@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    html {
+        height: 100%;
+        width: 100%;
+    }
+    body {
+        width: 100%;
+        max-width: 640px;
+        position: relative;
+        margin: 0px auto;
+        font-family: 'Poppins', sans-serif;
+    }
+    button:focus, input:focus {
+        outline: none;
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #fff; 
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #fffaf2; 
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #fb9300; 
+    }
+}
